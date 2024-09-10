@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"
+        integrity="sha512-X0CJvcClD8EXFn5Oq8BD5lIsznKDfxb0Sf9Wr8MCCTyAEWaAAxr0Jvm3qyofsmN7eSHMZ0PPQGjVKroLAfexrA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="formData" method="post" action="submit">
+        <h1>Form</h1>
+        <div>
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="firstName" value="" required />
+        </div>
+        <div>
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="lastName" value="" required />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" value="" required />
+        </div>
+        <div>
+            <label for="contact">Contact</label>
+            <input type="tel" id="contact" name="contact" value="" required />
+        </div>
+        <div>
+            <button class="button-submit">Submit</button>
+        </div>
+    </form>
+    <table class="table">
+        <thead class="table-head">
+            <tr>
+                <th>Sr.No</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Contact</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody class="table-body">
+            <!-- <tr>
+        <td></td>
+    </tr> -->
+        </tbody>
+
+    </table>
+    <script src="./app.js"></script>
+</body>
+
+</html>
